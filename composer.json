@@ -1,0 +1,29 @@
+{
+    "name": "maxShipitko/image-resizer",
+    "description": "The library is designed for image cropping.",
+    "authors": [
+        {
+            "name": "Maksim Shipitko",
+            "email": "max.shipitko@gmail.com"
+        },
+        {
+            "name": "Nikolay Ablov"
+        },
+        {
+            "name": "Dmitriy Loburets"
+        }		
+    ],
+	"keywords": [
+		"image",
+		"resize",
+		"crop"
+    ],
+	"homepage": "https://github.com/maxShipitko/image-resizer",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": { "Image_resizer\\": "image_resizer" }
+    }
+}
